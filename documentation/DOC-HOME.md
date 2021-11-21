@@ -383,7 +383,7 @@ Este padrão pode ser combinado com desestruturação, Atributos de Spread JSX e
   ))}
 </ul>
 ```
-
+note o atributo `key`. Ele é obrigatório ao renderizarmos itens de uma lista. Internamente, o React utilizade esse parametro para identificar quais itens sofreram alteração.
 ## Função como filha (Function as children)
 
 Componentes React não suportam funções como `children`.
